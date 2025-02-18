@@ -3,7 +3,7 @@
 module.exports = {
   up: async (queryInterface) => {
     // Insert a new user into the "Users" table
-    return queryInterface.bulkInsert('Users', [{
+    return queryInterface.bulkInsert('Spooks1834267', [{
       balance: 10000, // Set the initial balance for the new user
       createdAt: new Date(),
       updatedAt: new Date(),
